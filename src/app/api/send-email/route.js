@@ -21,7 +21,7 @@ export async function GET(req, res) {
 
   const data = {
     from: 'Weather News <mailgun@VERCEL_CRON_EMAIL>',
-    to: 'forthosewhocode@gmail.com',
+    to: 'jawadkhenfer@gmail.com',
     subject: 'Your Daily Weather Report',
     html: `
     <h1>${forecastData?.Headline?.Text}</h1>
